@@ -19,8 +19,6 @@ body {
 
 h1 {
   background-color: rgb(0, 175, 255);
-  color: black;
-  font-size: 250%;
   padding: 20px;
   border: medium solid black;
   border-radius: 20px;
@@ -66,6 +64,7 @@ header {
 img {
   border: thin solid black;
   border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 .ingredients {
@@ -73,7 +72,7 @@ img {
 }
 
 .steps {
-  background-color: green;
+  background-color: limegreen;
 }
 
 h2, h3 {
@@ -87,6 +86,7 @@ ul, ol {
 
 footer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -95,6 +95,7 @@ footer {
   width: 100vw;
   border-top: medium solid black;
   border-bottom:medium solid black;
+  font-size: 80%;
 
 }
 
@@ -109,7 +110,7 @@ a:visited {
 }
 
 a:hover {
-  color: rgb(0, 175, 255);
+  color: white;
 }
 
 @media (min-width: 380px) {
@@ -124,4 +125,18 @@ a:hover {
   .steps {
     max-width: 460px;
   }
+}
+
+@media (min-width: 768px) {
+
+  body {
+      font-size: 120%;
+    }
+
+  footer {
+    flex-direction: row;
+    justify-content: space-around;
+
+  }
+
 }
