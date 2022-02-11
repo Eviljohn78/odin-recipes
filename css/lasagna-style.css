@@ -102,7 +102,7 @@ a:visited {
 }
 
 a:hover {
-  color: white;
+  color: rgb(120, 120, 250);
 }
 
 @media (min-width: 380px) {
