@@ -51,7 +51,7 @@ header {
   border-radius: 10px;
   padding: 20px;
   gap: 20px;
-  box-shadow: 10px 10px 10px 5px;
+  box-shadow: 10px 10px 10px;
 }
 
 .intro {
@@ -137,7 +137,7 @@ a:hover {
     .intro, .ingredients, .steps {
       gap: 40px;
       padding: 40px;
-      box-shadow: 20px 20px 20px 10px;
+      box-shadow: 20px 20px 20px;
     }
 
     ul, ol {

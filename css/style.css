@@ -60,7 +60,7 @@ a:visited {
   border: medium solid black;
   border-radius: 10px;
   padding: 20px;
-  box-shadow: 10px 10px 10px 5px;
+  box-shadow: 10px 10px 10px;
 }
 
 .recipe-list a:hover {
@@ -100,7 +100,7 @@ footer {
 
     .recipe-list {
       padding: 40px;
-      box-shadow: 20px 20px 20px 10px;
+      box-shadow: 20px 20px 20px;
     }
 
     footer {
